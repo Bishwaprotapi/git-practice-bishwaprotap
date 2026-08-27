@@ -7,7 +7,7 @@ This beginner-friendly Python project demonstrates a practical Git workflow: com
 ## Features
 
 - Displays the student's name and the current date.
-- Demonstrates addition, subtraction, and multiplication.
+- Demonstrates addition, subtraction, multiplication, division, absolute value, remainder, and exponentiation.
 - Keeps calculator logic in a reusable utility module.
 
 ## Git Workflow
