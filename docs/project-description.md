@@ -13,3 +13,7 @@ This beginner-friendly Python project demonstrates a practical Git workflow: com
 ## Git Workflow
 
 The work is organised as small, descriptive commits. Calculator functionality and error handling are developed in separate feature branches before they are merged into `main`.
+
+## Error Handling
+
+The `divide` and `remainder` operations validate their divisor before performing a calculation. A zero divisor raises a `ValueError` with a clear message, which prevents invalid calculator results.
