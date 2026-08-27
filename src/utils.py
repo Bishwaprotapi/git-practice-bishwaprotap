@@ -33,3 +33,8 @@ def remainder(a: int, b: int) -> int:
     if b == 0:
         raise ValueError("Cannot divide by zero.")
     return a % b
+
+
+def power(base: float, exponent: float) -> float:
+    """Return base raised to the supplied exponent."""
+    return base**exponent
