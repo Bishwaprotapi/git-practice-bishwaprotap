@@ -19,3 +19,7 @@ The program prints the student's name and today's date, then demonstrates calcul
 ```bash
 python src/main.py
 ```
+
+## Supported Operations
+
+The demonstration currently includes addition, subtraction, multiplication, division, absolute value, remainder, and exponentiation. Division and remainder reject a zero divisor with a clear error message.
