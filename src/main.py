@@ -17,6 +17,11 @@ def main() -> None:
     print(f"7 remainder 3 = {remainder(7, 3)}")
     print(f"2 to the power of 4 = {power(2, 4)}")
 
+    try:
+        print(f"10 ÷ 0 = {divide(10, 0)}")
+    except ValueError as error:
+        print(f"Error: {error}")
+
 
 if __name__ == "__main__":
     main()
