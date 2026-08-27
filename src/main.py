@@ -2,7 +2,7 @@
 
 from datetime import date
 
-from utils import add, multiply, subtract
+from utils import add, divide, multiply, subtract
 
 
 def main() -> None:
@@ -12,6 +12,7 @@ def main() -> None:
     print(f"7 + 3 = {add(7, 3)}")
     print(f"7 - 3 = {subtract(7, 3)}")
     print(f"7 × 3 = {multiply(7, 3)}")
+    print(f"7 ÷ 3 = {divide(7, 3):.2f}")
 
 
 if __name__ == "__main__":
