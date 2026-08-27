@@ -2,7 +2,7 @@
 
 from datetime import date
 
-from utils import absolute_value, add, divide, multiply, subtract
+from utils import absolute_value, add, divide, multiply, remainder, subtract
 
 
 def main() -> None:
@@ -14,6 +14,7 @@ def main() -> None:
     print(f"7 × 3 = {multiply(7, 3)}")
     print(f"7 ÷ 3 = {divide(7, 3):.2f}")
     print(f"|-7| = {absolute_value(-7)}")
+    print(f"7 remainder 3 = {remainder(7, 3)}")
 
 
 if __name__ == "__main__":

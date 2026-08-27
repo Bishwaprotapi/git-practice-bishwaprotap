@@ -26,3 +26,10 @@ def divide(a: float, b: float) -> float:
 def absolute_value(value: float) -> float:
     """Return the non-negative magnitude of a number."""
     return abs(value)
+
+
+def remainder(a: int, b: int) -> int:
+    """Return the remainder of a divided by b, rejecting zero divisors."""
+    if b == 0:
+        raise ValueError("Cannot divide by zero.")
+    return a % b
