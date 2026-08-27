@@ -4,3 +4,4 @@ __pycache__/
 
 # Local environment variables
 .env
+.idea/
